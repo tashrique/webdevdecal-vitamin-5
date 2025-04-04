@@ -1,0 +1,51 @@
+.nothome-container {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.counter-container {
+  margin: 2rem auto;
+  padding: 2.5rem;
+  background-color: white;
+  border-radius: 12px;
+  max-width: 450px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.counter-container h2 {
+  color: #6c5ce7;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.button-group {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+button {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #5f4dd0;
+  transform: translateY(-2px);
+}
+
+.message {
+  color: #00b894;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+} 
